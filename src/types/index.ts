@@ -54,6 +54,7 @@ export interface ParentContext {
   validUploadMimeTypes?: string[];
   acceptFileTypes?: string;
   searchValue?: string;
+  backdrop?: 'static' | boolean | undefined;
 }
 
 // Media Selection
